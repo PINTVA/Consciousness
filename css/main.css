@@ -1,0 +1,520 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+a:hover {
+    transition: all 0.5s;
+}
+
+.wrapper-A {
+    width: 820px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrapper-B {
+    width: 966px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.our-introduce {
+    width: 100%;
+    height: 220px;
+    margin-bottom: 110px;
+    background: url('../img/our-bg.png') no-repeat center;
+}
+
+.our-introduce p {
+    font-family: Existence;
+    font-weight: 800;
+    font-size: 32.8px;
+    line-height: 220px;
+    text-align: center;
+    color: white;
+}
+
+.welcome {
+    width: 100%;
+    height: 665px;
+    background: url('../img/welcome.png') no-repeat center;
+    background-size: cover;
+}
+
+.welcome-text {
+    padding-top: 244px;
+}
+
+.welcome h2 {
+    color: white;
+    font-family: P22UndergroundBold;
+    font-weight: 500;
+    font-size: 41px;
+    letter-spacing: 2px;
+    padding-bottom: 46px;
+}
+
+.welcome h3 {
+    color: white;
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 120px;
+}
+
+.welcome a {
+    margin: 0 auto;
+    display: block;
+    width: 214px;
+    height: 44px;
+    color: white;
+    background-color: #d27f71;
+    font-family: Lato Regular;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-radius: 100px;
+    line-height: 44px;
+}
+
+.welcome a:hover {
+    color: #d27f71;
+    background-color: white;
+}
+
+#mainMenuBar {
+    background-color: white;
+    width: 100%;
+    height: 85px;
+    margin: 0 auto;
+    z-index: 100;
+}
+
+.logo {
+    margin-left: 10px;
+    color: #676767;
+    float: left;
+    line-height: 85px;
+    font-family: Existence;
+    font-weight: 900;
+    font-size: 21px;
+}
+
+.logo:hover {
+    color: #d27f71;
+}
+
+#mainMenuBar ul {
+    float: right;
+    margin-right: 10px;
+}
+
+#mainMenuBar ul li {
+    float: left;
+    padding-left: 22px;
+    line-height: 85px;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+#mainMenuBar ul li a {
+    color: #676767;
+}
+
+#mainMenuBar ul li a:hover {
+    color: #d27f71;
+    border-bottom: 1px solid #d27f71;
+}
+
+.stick {
+    position: fixed;
+    top: 0;
+}
+
+.home {
+    width: 100%;
+    height: 580px;
+    background-color: #eeeeee;
+}
+
+.home ul {
+    padding-top: 154px;
+}
+
+.home li {
+    width: 180px;
+    float: left;
+    padding: 0 12.5px;
+}
+
+.home-li-a {
+    background: url('../img/home-a-1.png') no-repeat;
+    background-position: center 0;
+    transition: all 0.5s;
+}
+
+.home-li-b {
+    background: url('../img/home-a-2.png') no-repeat;
+    background-position: center 0;
+    transition: all 0.5s;
+}
+
+.home-li-c {
+    background: url('../img/home-a-3.png') no-repeat;
+    background-position: center 0;
+    transition: all 0.5s;
+}
+
+.home-li-d {
+    background: url('../img/home-a-4.png') no-repeat;
+    background-position: center 0;
+    transition: all 0.5s;
+}
+
+.home-li-a:hover {
+    background: url('../img/home-b-1.png') no-repeat;
+    background-position: center 0;
+    transition: all 0.5s;
+}
+
+.home-li-b:hover {
+    background: url('../img/home-b-2.png') no-repeat;
+    background-position: center 0;
+    transition: all 0.5s;
+}
+
+.home-li-c:hover {
+    background: url('../img/home-b-3.png') no-repeat;
+    background-position: center 0;
+    transition: all 0.5s;
+}
+
+.home-li-d:hover {
+    background: url('../img/home-b-4.png') no-repeat;
+    background-position: center 0;
+    transition: all 0.5s;
+}
+
+.home-title {
+    font-family: Lato Regular;
+    letter-spacing: 0.2px;
+    font-size: 16px;
+    color: #676767;
+    padding-top: 156px;
+}
+
+.home-content {
+    font-family: Lato Regular;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    color: #676767;
+    padding-top: 32px;
+}
+
+.team {
+    width: 100%;
+    height: 800px;
+}
+
+.team-our {
+
+    margin: 70px auto 200px auto;
+    width: 203px;
+    height: 78px;
+    background: url('../img/our-team.png') no-repeat center;
+}
+
+.team-our p {
+    font-family: Existence;
+    font-weight: 900;
+    font-size: 32.8px;
+    line-height: 78px;
+}
+
+.team-ul-A, .team-ul-B, .team-ul-C {
+    width: 172PX;
+    float: left;
+}
+
+.team-ul-A {
+    margin-left: 40px;
+}
+
+.team-ul-B {
+    margin: 0 112px;
+}
+
+.team-ul-C {
+    margin-right: 40px;
+}
+
+.team-img {
+    margin-bottom: 58px;
+}
+
+.team-title {
+    margin-bottom: 18px;
+    font-family: Lato Regular;
+    font-size: 16.4px;
+    color: #484848;
+    letter-spacing: -0.8px;
+}
+
+.team-content {
+    margin-bottom: 24px;
+    font-family: Lato Regular;
+    font-size: 12.4px;
+    color: #777777;
+}
+
+.team-twitter, .team-facebook {
+    width: 34px;
+    height: 34px;
+}
+
+.team-twitter {
+    float: left;
+    margin-left: 44px;
+    background: url('../img/team-twitter.png') no-repeat center;
+    transition: all 0.5s;
+}
+
+.team-twitter:hover {
+    background: url('../img/team-twitter-hover.png') no-repeat center;
+    transition: all 0.5s;
+}
+
+.team-facebook {
+    float: right;
+    margin-right: 44px;
+    background: url('../img/team-facebook.png') no-repeat center;
+    transition: all 0.5s;
+}
+
+.team-facebook:hover {
+    background: url('../img/team-facebook-hover.png') no-repeat center;
+    transition: all 0.5s;
+}
+
+.photographic {
+    width: 100%;
+    height: 764px;
+}
+
+.photographic li {
+    margin-bottom: 10px;
+}
+
+.photographic img {
+    transition: all 1s;
+}
+
+.photographic img:hover {
+    transform: translate(0px, -2px);
+    box-shadow: 0px 3px 28px 2px #a8a8a8;
+    transition: all 1s;
+}
+
+.photo-A li {
+    margin-right: 10px;
+    width: 234px;
+    height: 318px;
+    float: left;
+}
+
+.photographic-photo .photo-A-max {
+    margin-right: 0;
+    width: 478px;
+}
+
+.photo-C li {
+    width: 234px;
+    height: 234px;
+    margin-right: 10px;
+    float: left;
+}
+
+.photo-C .photo-C-R {
+    margin-right: 0;
+}
+
+.interface .interface-home {
+    margin-bottom: 110px;
+}
+
+.interface .interface-shop {
+    margin-bottom: 180px;
+}
+
+.interface-phco {
+    background: url('../img/UI-bg.png') no-repeat center;
+}
+
+.interface-phco-ul {
+    width: 1246px;
+    height: 1590px;
+    margin: 0 auto;
+}
+
+.interface-phco-ul img {
+    box-shadow: 0px 3px 30px 1px #bababa;
+}
+
+.interface-phco li {
+    width: 375px;
+    float: left;
+}
+
+.interface-phco-li {
+    margin: 0 60.5PX;
+}
+
+.interface-phco-A {
+    margin-bottom: 94px;
+}
+
+.interface-phco-B {
+    margin-top: 145px;
+    margin-bottom: 98px;
+}
+
+.interface-phco-C {
+    margin-top: 46px;
+    margin-bottom: 94px;
+}
+
+.design {
+    background: url('../img/UI-bg.png') no-repeat center;
+}
+
+.design-ul {
+    width: 1246px;
+    height: 1396px;
+    margin: 0 auto;
+}
+
+.design-ul img {
+    box-shadow: 0px 4px 30px 1px #969696;
+}
+
+.design li {
+    width: 375px;
+    float: left;
+}
+
+.design-li {
+    margin: 0 60.5PX;
+}
+
+.design-img-A {
+    margin-top: 34px;
+    margin-bottom: 88px;
+}
+
+.design-img-B {
+    margin-top: 90px;
+    margin-bottom: 84px;
+}
+
+.design-img-C {
+    margin-bottom: 62px;
+}
+
+.contact-us {
+    width: 100%;
+    height: 330px;
+    background: url('../img/contact-bg.png') no-repeat center;
+}
+
+.contact-us p {
+    font-family: Existence;
+    font-weight: 800;
+    font-size: 32.8px;
+    line-height: 330px;
+    text-align: center;
+    color: white;
+}
+
+.contact {
+    width: 100%;
+    height: 250px;
+    background-color: #1b394b;
+}
+
+.contact h4 {
+    color: white;
+    font-family: Existence;
+    font-size: 26px;
+    padding-top: 96px;
+    padding-bottom: 18px;
+}
+
+.contact ul {
+    width: 152px;
+    margin: 0 auto;
+}
+
+.contact a {
+    float: left;
+    display: block;
+    width: 20px;
+    height: 16px;
+    margin: 0 9px;
+}
+
+.contact-t a {
+    background: url('../img/contact-t.png') no-repeat center;
+}
+
+.contact-f a {
+    background: url('../img/contact-f.png') no-repeat center;
+}
+
+.contact-i a {
+    background: url('../img/contact-i.png') no-repeat center;
+}
+
+.contact-w a {
+    background: url('../img/contact-w.png') no-repeat center;
+}
+
+.contact-t a:hover {
+    background: url('../img/contact-t-hover.png') no-repeat center;
+}
+
+.contact-f a:hover {
+    background: url('../img/contact-f-hover.png') no-repeat center;
+}
+
+.contact-i a:hover {
+    background: url('../img/contact-i-hover.png') no-repeat center;
+}
+
+.contact-w a:hover {
+    background: url('../img/contact-w-hover.png') no-repeat center;
+}
+
+.footer {
+    background-color: white;
+    height: 40px;
+}
+
+.footer p {
+    line-height: 40px;
+    color: #1b394b;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    letter-spacing: 1.5px;
+}
